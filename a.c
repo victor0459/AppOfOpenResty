@@ -3,5 +3,6 @@ int main(char argc,char**argv){
 
 	printf("hello world\n");
 	printf("hello goland\n");
+	printf("hello golang\n");
 
 }
