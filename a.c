@@ -5,5 +5,6 @@ int main(char argc,char**argv){
 	printf("hello goland\n");
 	printf("hello golang\n");
 	ptintf("hello c\n");
+	printf("hello cplusplus\n");
 
 }
