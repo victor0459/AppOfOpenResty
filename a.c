@@ -7,6 +7,6 @@ int main(char argc,char**argv){
 	ptintf("hello c\n");
 	printf("hello cplusplus\n");
 	printf("hello csharp\n");
-
+	printf("hello java\n");
 
 }
