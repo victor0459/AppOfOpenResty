@@ -8,5 +8,6 @@ int main(char argc,char**argv){
 	printf("hello cplusplus\n");
 	printf("hello csharp\n");
 	printf("hello java\n");
+	printf("hello javascript\n");
 
 }
