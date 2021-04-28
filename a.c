@@ -9,5 +9,6 @@ int main(char argc,char**argv){
 	printf("hello csharp\n");
 	printf("hello java\n");
 	printf("hello javascript\n");
+	printf("hello python\n");
 
 }
