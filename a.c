@@ -10,5 +10,6 @@ int main(char argc,char**argv){
 	printf("hello java\n");
 	printf("hello javascript\n");
 	printf("hello python\n");
+	printf("hello solidity\n");
 
 }
