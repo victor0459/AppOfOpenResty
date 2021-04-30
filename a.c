@@ -11,5 +11,6 @@ int main(char argc,char**argv){
 	printf("hello javascript\n");
 	printf("hello python\n");
 	printf("hello solidity\n");
+	printf("hello lua\n");
 
 }
