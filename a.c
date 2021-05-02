@@ -13,5 +13,6 @@ int main(char argc,char**argv){
 	printf("hello solidity\n");
 	printf("hello lua\n");
 	printf("hello sql\n");
+	printf("hello kafka\n");
 
 }
