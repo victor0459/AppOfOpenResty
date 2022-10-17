@@ -6,11 +6,11 @@ local id = uri_args["id"]
 local db = mysql:new()
 db:set_timeout(1000)
 local props = {
-	host = "192.168.211.132",
+	host = "127.0.0.1",
 	port = 3306,
-	database = "changgou_content",
-	user = "root",
-	password = "123456"
+	database = "content",
+	user = "xxxx",
+	password = "xxxx"
 }
 local res = db:connect(props)
 local select_sql = "select url,pic from tb_content where status ='1' and
@@ -20,7 +20,7 @@ db:close()
 local redis = require("resty.redis")
 local red = redis:new()
 red:set_timeout(2000)
-local ip ="192.168.211.132"
+local ip ="127.0.0.1"
 local port = 6379
 red:connect(ip,port)
 red:set("content_"..id,cjson.encode(res))
